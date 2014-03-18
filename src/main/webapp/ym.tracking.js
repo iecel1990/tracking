@@ -10,7 +10,7 @@ try {
 			this.trackingEndTime = new Date().getTime();
 			
 			this.settings = {
-				url: ('https:' == document.location.protocol ? 'https://' : 'http://') + "tracking.yesmywine.com/tracking",
+				url: ('https:' == document.location.protocol ? 'https://' : 'http://') + "tracking.domain.com/tracking",
 				hoverMilliSec : 1500
 			};
 			this.tracking = {};
